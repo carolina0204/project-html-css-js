@@ -15,8 +15,9 @@
 <body>
     <header class="header" id="inicio">
         <!--header.clase#id-->
-        <img src="img/mod.jpg" alt="moda" class="moda" width="1250" height="500">
-        <nav class="menu">
+        <!-- <img src="img/mod.jpg" alt="moda" class="moda" width=1100 height=400><br>-->
+        <img src="img/menu.svg" alt="menu" class="menu">
+        <nav class="menu-navegador">
             <a href="">Inicio</a>
             <!--a*5 me coloca directamente href-->
             <a href="">servicio</a>
@@ -24,16 +25,16 @@
             <a href="">Compra</a>
             <a href="">Contacto</a>
         </nav>
-        <div class="contenedor">
+        <div class="contenedor head">
             <h1>Moda en TI</h1>
             <p class="copy">Compra tu ropa desde la comodidad de tu casa</p>
         </div>
     </header>
     <main>
         <section class="service-contenedor" id="service">
-            <h2 class="subtitulo"></h2>
+            <h2 class="subtitulo">Servicio</h2>
             <div class="contenedorservicio">
-                <img src="img/lauren.jpg" alt="lauren" width="350" height="150">
+                <img src="img/mac.jpg" alt="lauren" width="350" height="150">
                 <div class="checklist-servicio">
                     <div class="servicio">
                         <h3 class="n-servicio"><span class="number">1</span> Chaquetas</h3>
@@ -87,7 +88,6 @@
 
         </section>
     </main>
-
     <footer id="contacto">
         <div class="contenedor footer- content">
             <div class="contact-us">
@@ -96,15 +96,21 @@
             </div>
             <div class="social-media">
                 <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook-square'></i>
+                    <!--font-->
                     <box-icon name='facebook-square' type='logo' animation='tada'></box-icon>
                     <!--componente web-->
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram bx-tada bx-flip-horizontal'></i>
+                    <!--font-->
                 </a>
             </div>
         </div>
     </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
 </body>
 
 </html>
-
-<i class='bx bxl-instagram bx-tada bx-flip-horizontal'></i>
-<!--font-->

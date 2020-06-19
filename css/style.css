@@ -35,6 +35,8 @@ header {
 
 .menu {
     position: fixed;
+    z-index: 10;
+    /*se usa para ordenar elementos que se superpone*/
     top: 30px;
     right: 30px;
     background: #fff;
@@ -56,12 +58,13 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* transition: transform .3s ease-in-out;*/
+    transition: transform .3s ease-in-out;
     transform: translate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
 .spread {
+    /*oculta el menu-navegation*/
     transform: translate(0);
 }
 
@@ -232,14 +235,15 @@ footer {
 .marca {
     font-weight: 500px;
     font-size: 40px;
+    color: #150935;
 }
 
 .marca+p {
-    font-weight: 500;
+    font-weight: 500px;
 }
 
 .social-media {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
@@ -255,7 +259,7 @@ footer {
     color: #fff;
 }
 
-.social-media-icon-hover {
+.social-media-icon:hover {
     background: #fff;
     color: #764ba2;
 }
@@ -267,4 +271,14 @@ footer {
 
 .line {
     width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+.ubicacion {
+    text-align: center;
+    color: #fff
 }

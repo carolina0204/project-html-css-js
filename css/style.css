@@ -35,8 +35,6 @@ header {
 
 .menu {
     position: fixed;
-    z-index: 10;
-    /*se usa para ordenar elementos que se superpone*/
     top: 30px;
     right: 30px;
     background: #fff;
